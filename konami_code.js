@@ -11,6 +11,8 @@ const codes = [
   "a"
 ];
 
-function init() {
-  // your code here
+index;
+
+function init(e) {
+  const
 }
