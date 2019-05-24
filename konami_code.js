@@ -29,3 +29,5 @@ function onKeyDownHandler(e) {
     index = 0;
   }
 }
+
+init();
