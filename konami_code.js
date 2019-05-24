@@ -23,10 +23,11 @@ function onKeyDownHandler(e) {
   debugger;
   if(key === codes[index]) {
     index++;
-  } if(index === codes.length) {
-    alert("You are a true master!");
-    index = 0;
   } else {
+    index = 0;
+  }
+  if(index === codes.length) {
+    alert("You are a true master!");
     index = 0;
   }
 }
