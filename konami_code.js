@@ -20,6 +20,7 @@ function init() {
 function onKeyDownHandler(e) {
   
   const key = e.key;
+  debugger;
   if(key === codes[index]) {
     index++;
   } if(index === codes.length) {
